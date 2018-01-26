@@ -3,15 +3,15 @@ class Student
 #class Student < class User
 
   def initializes
-    @knowledge = []
+    @knowledges = []
   end
 
   def learn(knowledge)
-    @knowledge << knowledge
+    @knowledges << knowledge
   end
 
   def knowledge
-    puts @knowledge
+    puts @knowledges
   end
 
 end
