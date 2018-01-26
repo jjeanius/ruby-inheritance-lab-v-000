@@ -15,4 +15,3 @@ class Student < class User
   end
 
 end
-    
