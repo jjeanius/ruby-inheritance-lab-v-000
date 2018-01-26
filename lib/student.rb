@@ -13,6 +13,7 @@ attr_accessor :knowledge, :learn
   def add_knowledge(knowledge)
     @knowledges << knowledge
     knowledge.student = self
+  end
 
   def knowledge
     @knowledge
