@@ -6,6 +6,7 @@ class Teacher
   KNOWLEDGE.sample
 
 end
+end
 
 class Teacher
 end
