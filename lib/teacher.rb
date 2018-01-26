@@ -1,5 +1,5 @@
 class Teacher
-  
+
 end
 
 
@@ -11,4 +11,3 @@ end
       @KNOWLEDGE.sample
     end
 
-  end
