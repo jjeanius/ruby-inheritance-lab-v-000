@@ -7,6 +7,7 @@ class Student < User
 
   def learn(knowledge)
     @knowledges << knowledge.join("")
+  end
 
   def knowledge
     @knowledge
