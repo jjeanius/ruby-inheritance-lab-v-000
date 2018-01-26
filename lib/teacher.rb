@@ -8,5 +8,5 @@ class Teacher
 end
 end
 
-class Teacher
+class Teacher < User
 end
