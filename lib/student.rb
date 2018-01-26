@@ -1,6 +1,6 @@
 class Student
 
-class Student < class User
+#class Student < class User
 
   def initializes
     knowledge = []
@@ -14,5 +14,4 @@ class Student < class User
     @student_knowledge
   end
 
-end
 end
