@@ -3,7 +3,8 @@ class Student < User
 attr_accessor :knowledge, :learn, :name
 #class Student < class User
 
-  def initializes(knowledge)
+  def initializes
+    knowledge = knowledge.new
     @knowledge = []
   end
 
