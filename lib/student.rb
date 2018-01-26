@@ -1,6 +1,6 @@
 class Student
 
-attr_accessor :knowledges, :learn, :name
+attr_accessor :knowledge, :learn, :name
 #class Student < class User
 
   def initializes(name)
