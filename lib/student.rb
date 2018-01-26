@@ -5,15 +5,15 @@ attr_accessor :knowledge, :learn, :name
 
   def initializes(name)
     @name = name
-    @knowledges = []
+    @knowledge = []
   end
 
   def learn(knowledge)
-    @knowledges << knowledge
+    @knowledge << knowledge
   end
 
   def knowledge
-    @knowledges
+    @knowledge
   end
 
 end
