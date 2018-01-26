@@ -4,7 +4,7 @@ attr_accessor :knowledge, :learn, :name
 #class Student < class User
 
   def initializes(knowledge)
-    @knowledge = []
+    @@knowledge = []
   end
 
   def learn
