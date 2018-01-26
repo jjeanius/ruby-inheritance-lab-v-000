@@ -6,8 +6,7 @@ class Student < User
   end
 
   def learn(knowledge)
-    @knowledges << knowledge.split("")
-  end
+    @knowledges << knowledge.join("")
 
   def knowledge
     @knowledge
