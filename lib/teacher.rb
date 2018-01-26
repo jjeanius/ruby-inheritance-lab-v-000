@@ -5,3 +5,5 @@ class Teacher
 class Teacher < class User
 
 end
+end
+
