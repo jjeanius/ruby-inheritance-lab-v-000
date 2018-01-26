@@ -13,7 +13,7 @@ attr_accessor :knowledges, :learn, :name
   end
 
   def knowledge
-    puts @knowledges
+    @knowledges
   end
 
 end
