@@ -1,12 +1,12 @@
 class Student < User
-#attr_accessor :knowledge, :learn
+attr_accessor :knowledge
 
   def initialize
     @knowledge = []
   end
 
   def learn(knowledge)
-    @knowledges << knowledge.split(" ")
+    @knowledge << knowledge
   end
 
   def knowledge
