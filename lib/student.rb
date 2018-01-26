@@ -8,11 +8,11 @@ attr_accessor :knowledge, :learn, :name
     @knowledge = []
   end
 
-  def self.learn
+  def learn
     @knowledges << knowledge
   end
 
-  def self.knowledge
+  def knowledge
     @knowledges
   end
 
