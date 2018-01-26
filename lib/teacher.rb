@@ -8,4 +8,3 @@ class Teacher
 end
 
 class Teacher < class User
-end
