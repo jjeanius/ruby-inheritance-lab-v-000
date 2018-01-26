@@ -13,7 +13,7 @@ attr_accessor :knowledge, :learn, :name
   end
 
   def knowledge
-    @knowledge
+    self.knowledge
   end
 
 end
