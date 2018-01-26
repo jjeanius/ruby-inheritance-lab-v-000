@@ -1,4 +1,4 @@
-class Student < Teacher
+class Student < User
 #attr_accessor :knowledge, :learn
 
   def initialize
