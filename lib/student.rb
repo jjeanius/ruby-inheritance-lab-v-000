@@ -14,4 +14,5 @@ class Student < class User
     @student_knowledge
   end
 
+END
 end
