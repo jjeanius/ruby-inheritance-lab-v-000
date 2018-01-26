@@ -3,7 +3,7 @@ class Student
 #class Student < class User
 
   def initializes
-    knowledge = []
+    @student_knowledge = []
   end
 
   def learn(knowledge)
@@ -11,7 +11,7 @@ class Student
   end
 
   def knowledge
-    @student_knowledge
+    puts @student_knowledge
   end
 
 end
